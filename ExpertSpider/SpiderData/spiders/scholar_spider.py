@@ -8,7 +8,7 @@ import urllib.parse
 import re
 
 global conn
-conn = pymongo.MongoReplicaSetClient('mongodb://%s:%s@%s/SpiderResult' % ("spider", "spider", "123.206.16.212:27017"))
+conn = pymongo.MongoReplicaSetClient('mongodb://%s:%s@%s/SpiderResult' % ("usrname", "pwd", "ip:port"))
 global db
 global counter
 counter=0
